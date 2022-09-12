@@ -1,0 +1,15 @@
+INFO:root:helle,info
+WARNING:root:warning info
+ERROR:root:error info
+CRITICAL:root:critical info
+INFO:root:helle,info
+WARNING:root:warning info
+ERROR:root:error info
+CRITICAL:root:critical info
+2020-03-26 11:32:33,895 logging_test.py[line:8] INFO helle,info
+2020-03-26 11:32:33,895 logging_test.py[line:9] WARNING warning info
+2020-03-26 11:32:33,895 logging_test.py[line:10] ERROR error info
+2020-03-26 11:32:33,895 logging_test.py[line:11] CRITICAL critical info
+2020-03-26 13:36:09,922 capability_yaml.py[line:22] INFO start APP .....
+2020-03-26 13:36:23,063 capability_yaml.py[line:27] INFO check_cancelBtn
+2020-03-26 13:36:24,352 capability_yaml.py[line:38] INFO check_skinBtn

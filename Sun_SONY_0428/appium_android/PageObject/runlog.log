@@ -1,0 +1,354 @@
+2020-03-26 14:31:03,737 desired_caps.py[line:29] INFO start APP .....
+2020-03-26 15:41:31,605 desired_caps.py[line:28] INFO start APP .....
+2020-03-26 15:41:45,222 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-03-26 15:41:50,581 common_fun.py[line:17] INFO ======================No cancelBtn======================
+2020-03-26 15:42:09,955 desired_caps.py[line:28] INFO start APP .....
+2020-03-26 15:42:26,066 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-03-26 15:42:54,330 desired_caps.py[line:28] INFO start APP .....
+2020-03-26 15:43:09,028 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-03-26 15:43:14,057 common_fun.py[line:17] INFO ======================No cancelBtn======================
+2020-03-26 15:43:14,057 common_fun.py[line:23] INFO ======================check_skinBtn======================
+2020-03-26 15:43:19,284 common_fun.py[line:27] INFO ======================No SkinBtn======================
+2020-03-26 15:43:35,021 desired_caps.py[line:28] INFO start APP .....
+2020-03-26 15:43:51,487 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-03-26 15:43:52,709 common_fun.py[line:23] INFO ======================check_skinBtn======================
+2020-03-26 15:48:32,207 desired_caps.py[line:28] INFO start APP .....
+2020-03-26 15:48:45,652 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-03-26 15:48:50,982 common_fun.py[line:18] INFO ======================No cancelBtn======================
+2020-03-26 15:48:50,982 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-03-26 15:48:56,213 common_fun.py[line:28] INFO ======================No SkinBtn======================
+2020-03-26 15:55:55,530 desired_caps.py[line:28] INFO start APP .....
+2020-03-26 15:56:10,777 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-03-26 15:56:16,142 common_fun.py[line:18] INFO ======================No cancelBtn======================
+2020-03-26 15:56:16,142 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-03-26 15:56:21,367 common_fun.py[line:28] INFO ======================No SkinBtn======================
+2020-04-03 14:30:03,806 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 14:42:43,226 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 14:42:56,340 common_fun.py[line:15] INFO ======================check_cancelBtn=========================
+2020-04-03 14:43:01,523 common_fun.py[line:19] INFO ======================No cancelBtn======================
+2020-04-03 14:43:01,523 common_fun.py[line:25] INFO ======================check_skinBtn======================
+2020-04-03 14:43:08,034 common_fun.py[line:29] INFO ======================No SkinBtn======================
+2020-04-03 15:32:03,444 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 15:36:43,889 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 15:37:01,284 common_fun.py[line:15] INFO ======================check_cancelBtn=========================
+2020-04-03 15:40:15,254 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 15:40:31,941 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-04-03 15:42:52,570 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 15:43:08,751 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-04-03 15:43:37,314 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 15:43:53,662 common_fun.py[line:23] INFO ======================check_skinBtn======================
+2020-04-03 15:43:58,945 common_fun.py[line:27] INFO ======================No SkinBtn======================
+2020-04-03 15:43:58,945 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-03 15:44:23,229 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 15:44:39,645 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-04-03 15:46:22,757 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 15:46:39,151 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-04-03 16:01:57,357 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 16:02:11,150 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-04-03 16:02:16,208 common_fun.py[line:17] INFO ======================No cancelBtn======================
+2020-04-03 16:02:16,209 common_fun.py[line:23] INFO ======================check_skinBtn======================
+2020-04-03 16:02:21,480 common_fun.py[line:27] INFO ======================No SkinBtn======================
+2020-04-03 16:05:06,719 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 16:06:09,572 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 16:08:11,993 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 16:08:25,497 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-04-03 16:08:30,684 common_fun.py[line:17] INFO ======================No cancelBtn======================
+2020-04-03 16:08:30,684 common_fun.py[line:23] INFO ======================check_skinBtn======================
+2020-04-03 16:21:30,419 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 16:21:46,584 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-04-03 16:21:47,024 common_fun.py[line:19] INFO ----click_cancelBtn----
+2020-04-03 16:21:47,771 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-03 16:21:47,814 common_fun.py[line:30] INFO ----click_skipBtn----
+2020-04-03 16:21:47,845 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-03 16:21:48,757 loginView.py[line:19] INFO =====================login_username====================
+2020-04-03 16:21:48,757 loginView.py[line:20] INFO input username:yuanchaoer
+2020-04-03 16:21:50,191 loginView.py[line:23] INFO =====================login_password====================
+2020-04-03 16:21:50,191 loginView.py[line:24] INFO input password:qq123456
+2020-04-03 16:21:50,740 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-03 16:24:02,990 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 16:24:19,590 common_fun.py[line:13] INFO ======================check_cancelBtn=========================
+2020-04-03 16:24:20,235 common_fun.py[line:19] INFO ----click_cancelBtn----
+2020-04-03 16:25:17,974 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 16:25:40,060 desired_caps.py[line:28] INFO start APP .....
+2020-04-03 16:25:55,176 common_fun.py[line:15] INFO ======================check_cancelBtn=========================
+2020-04-03 16:25:55,615 common_fun.py[line:21] INFO ----click_cancelBtn----
+2020-04-07 15:13:18,124 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:13:18,149 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:13:23,426 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:13:23,430 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:13:28,489 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:13:28,494 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:20:25,305 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:20:25,310 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:20:42,983 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:20:42,983 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:20:44,264 common_fun.py[line:20] INFO ----click_cancelBtn----
+2020-04-07 15:20:45,550 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:20:50,642 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:20:50,643 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:20:50,709 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:20:50,709 loginView.py[line:20] INFO input username:666666
+2020-04-07 15:20:52,142 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:20:52,142 loginView.py[line:24] INFO input password:222222
+2020-04-07 15:20:52,686 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:20:53,221 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:20:59,112 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:20:59,116 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:21:13,224 test_login.py[line:10] INFO ==========test_login_yuanchaoer==========
+2020-04-07 15:21:13,225 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:21:18,557 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:21:18,557 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:21:23,816 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:21:23,816 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:21:23,884 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:21:23,884 loginView.py[line:20] INFO input username:yuanchaoer
+2020-04-07 15:21:24,988 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:21:24,988 loginView.py[line:24] INFO input password:qq123456
+2020-04-07 15:21:25,539 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:21:26,080 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:21:32,075 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:21:32,080 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:21:46,106 test_login.py[line:15] INFO ==========test_login_zxw2018==========
+2020-04-07 15:21:46,106 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:21:51,310 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:21:51,311 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:21:56,436 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:21:56,437 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:21:59,312 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:23:05,093 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:23:05,098 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:23:18,511 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:23:18,511 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:23:23,752 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:23:23,752 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:23:26,462 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:23:26,466 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:23:27,766 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:23:27,772 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:23:31,579 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:23:31,585 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:24:03,407 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:24:03,411 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:24:20,542 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:24:20,542 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:24:21,232 common_fun.py[line:20] INFO ----click_cancelBtn----
+2020-04-07 15:24:22,005 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:24:22,060 common_fun.py[line:30] INFO ----click_skipBtn----
+2020-04-07 15:24:22,097 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:24:23,005 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:24:23,006 loginView.py[line:20] INFO input username:666666
+2020-04-07 15:24:24,122 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:24:24,122 loginView.py[line:24] INFO input password:222222
+2020-04-07 15:24:24,666 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:24:25,199 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:24:30,199 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:24:30,203 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:24:44,617 test_login.py[line:10] INFO ==========test_login_yuanchaoer==========
+2020-04-07 15:24:44,617 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:24:50,141 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:24:55,149 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:24:55,154 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:25:08,747 test_login.py[line:15] INFO ==========test_login_zxw2018==========
+2020-04-07 15:25:08,747 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:25:14,180 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:25:14,181 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:25:19,426 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:25:19,426 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:25:19,506 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:25:19,506 loginView.py[line:20] INFO input username:×ÔÑ§Íø2018
+2020-04-07 15:25:20,624 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:25:20,625 loginView.py[line:24] INFO input password:zxw2018
+2020-04-07 15:25:21,168 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:25:21,716 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:27:57,664 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:27:57,670 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:28:14,023 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:28:14,023 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:28:14,553 common_fun.py[line:20] INFO ----click_cancelBtn----
+2020-04-07 15:28:14,585 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:28:15,319 common_fun.py[line:30] INFO ----click_skipBtn----
+2020-04-07 15:28:15,352 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:28:16,354 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:28:16,354 loginView.py[line:20] INFO input username:666666
+2020-04-07 15:28:17,487 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:28:17,487 loginView.py[line:24] INFO input password:222222
+2020-04-07 15:28:18,042 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:28:18,584 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:28:24,551 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:28:24,557 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:28:39,071 test_login.py[line:10] INFO ==========test_login_yuanchaoer==========
+2020-04-07 15:28:39,071 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:28:44,494 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:28:44,494 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:28:49,609 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:28:49,609 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:28:49,677 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:28:49,677 loginView.py[line:20] INFO input username:yuanchaoer
+2020-04-07 15:28:50,806 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:28:50,807 loginView.py[line:24] INFO input password:qq123456
+2020-04-07 15:28:51,354 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:28:51,888 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:28:57,989 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:28:57,995 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:29:12,955 test_login.py[line:15] INFO ==========test_login_zxw2018==========
+2020-04-07 15:29:12,955 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:29:18,129 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:29:18,129 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:29:38,842 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:29:38,847 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:29:54,137 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:29:54,137 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:29:54,699 common_fun.py[line:20] INFO ----click_cancelBtn----
+2020-04-07 15:29:55,451 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:29:55,495 common_fun.py[line:30] INFO ----click_skipBtn----
+2020-04-07 15:29:55,528 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:29:56,443 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:29:56,443 loginView.py[line:20] INFO input username:666666
+2020-04-07 15:29:57,572 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:29:57,572 loginView.py[line:24] INFO input password:222222
+2020-04-07 15:29:58,132 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:30:03,210 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:30:03,214 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:30:16,928 test_login.py[line:10] INFO ==========test_login_yuanchaoer==========
+2020-04-07 15:30:16,928 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:30:22,384 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:30:22,385 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:30:27,674 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:30:27,675 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:30:27,746 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:30:27,746 loginView.py[line:20] INFO input username:yuanchaoer
+2020-04-07 15:30:28,857 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:30:28,857 loginView.py[line:24] INFO input password:qq123456
+2020-04-07 15:30:29,399 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:30:29,937 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:30:34,938 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:30:34,944 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:30:49,903 test_login.py[line:15] INFO ==========test_login_zxw2018==========
+2020-04-07 15:30:49,903 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:30:55,402 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:30:55,402 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:31:00,734 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:31:00,734 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:31:05,804 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:31:27,725 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:31:27,729 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:31:43,962 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:31:43,963 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:31:44,342 common_fun.py[line:20] INFO ----click_cancelBtn----
+2020-04-07 15:31:45,209 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:31:45,412 common_fun.py[line:30] INFO ----click_skipBtn----
+2020-04-07 15:31:45,566 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:31:47,012 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:31:47,012 loginView.py[line:20] INFO input username:666666
+2020-04-07 15:31:48,283 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:31:48,283 loginView.py[line:24] INFO input password:222222
+2020-04-07 15:31:49,006 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:31:49,713 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:31:54,715 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:31:54,719 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:32:12,225 test_login.py[line:10] INFO ==========test_login_yuanchaoer==========
+2020-04-07 15:32:12,225 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:32:18,054 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:32:18,054 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:32:23,679 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:32:23,679 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:32:24,076 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:32:24,076 loginView.py[line:20] INFO input username:yuanchaoer
+2020-04-07 15:32:25,362 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:32:25,363 loginView.py[line:24] INFO input password:qq123456
+2020-04-07 15:32:26,066 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:32:26,751 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:32:33,135 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:32:33,141 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:33:12,744 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:33:12,748 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:33:30,746 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:33:30,750 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:33:47,279 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:33:47,284 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:33:48,751 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:33:48,755 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:34:18,051 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:34:18,051 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:34:23,318 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:34:23,318 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:34:23,508 common_fun.py[line:30] INFO ----click_skipBtn----
+2020-04-07 15:34:24,539 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:34:24,912 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:34:24,912 loginView.py[line:20] INFO input username:666666
+2020-04-07 15:34:26,196 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:34:26,196 loginView.py[line:24] INFO input password:222222
+2020-04-07 15:34:26,893 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:34:27,564 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:34:32,565 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:34:32,569 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:34:58,418 test_login.py[line:10] INFO ==========test_login_yuanchaoer==========
+2020-04-07 15:34:58,418 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:35:04,096 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:35:04,097 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:35:09,804 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:35:09,805 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:35:10,165 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:35:10,165 loginView.py[line:20] INFO input username:yuanchaoer
+2020-04-07 15:35:11,467 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:35:11,467 loginView.py[line:24] INFO input password:qq123456
+2020-04-07 15:35:12,261 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:35:12,579 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:35:17,583 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:35:17,586 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:35:29,724 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:35:29,738 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:35:49,495 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:35:49,495 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:35:49,681 common_fun.py[line:20] INFO ----click_cancelBtn----
+2020-04-07 15:35:50,573 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:35:50,818 common_fun.py[line:30] INFO ----click_skipBtn----
+2020-04-07 15:35:50,978 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:35:52,062 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:35:52,062 loginView.py[line:20] INFO input username:666666
+2020-04-07 15:35:53,381 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:35:53,381 loginView.py[line:24] INFO input password:222222
+2020-04-07 15:35:54,083 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:35:54,758 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:36:00,741 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:36:00,745 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:36:18,810 test_login.py[line:10] INFO ==========test_login_yuanchaoer==========
+2020-04-07 15:36:18,811 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:36:25,028 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:36:25,028 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:36:30,685 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:36:30,685 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:36:31,039 loginView.py[line:19] INFO =====================login_username====================
+2020-04-07 15:36:31,039 loginView.py[line:20] INFO input username:yuanchaoer
+2020-04-07 15:36:32,332 loginView.py[line:23] INFO =====================login_password====================
+2020-04-07 15:36:32,332 loginView.py[line:24] INFO input password:qq123456
+2020-04-07 15:36:33,101 loginView.py[line:27] INFO =====================click loginBtn====================
+2020-04-07 15:36:33,758 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:36:39,840 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:36:39,845 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:36:57,277 test_login.py[line:15] INFO ==========test_login_zxw2018==========
+2020-04-07 15:36:57,277 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:37:02,170 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:54:05,605 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:54:05,608 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:54:21,667 test_login.py[line:20] INFO ==========test_login_error==========
+2020-04-07 15:54:21,667 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:54:26,878 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:54:26,878 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:54:32,308 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:54:32,308 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:54:37,833 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:54:44,155 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:54:44,161 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:55:01,383 test_login.py[line:10] INFO ==========test_login_yuanchaoer==========
+2020-04-07 15:55:01,383 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:55:06,844 common_fun.py[line:18] INFO =========No cancelBtn========
+2020-04-07 15:55:06,844 common_fun.py[line:24] INFO ======================check_skinBtn======================
+2020-04-07 15:55:12,406 common_fun.py[line:28] INFO =========No SkinBtn========
+2020-04-07 15:55:12,406 loginView.py[line:16] INFO =====================username_clear====================
+2020-04-07 15:55:17,886 myunit.py[line:13] INFO =======tearDown=======
+2020-04-07 15:55:23,884 myunit.py[line:9] INFO ======setUp======
+2020-04-07 15:55:23,888 desired_caps.py[line:28] INFO start APP .....
+2020-04-07 15:55:41,934 test_login.py[line:15] INFO ==========test_login_zxw2018==========
+2020-04-07 15:55:41,935 common_fun.py[line:14] INFO ======================check_cancelBtn=========================
+2020-04-07 15:55:44,458 myunit.py[line:13] INFO =======tearDown=======

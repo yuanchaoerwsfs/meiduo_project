@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="SUN" name="pytest" skipped="0" tests="11" time="0.120" timestamp="2019-08-28T16:04:47.427402"><testcase classname="test_assert" file="test_assert.py" line="16" name="test_add_1" time="0.001"></testcase><testcase classname="test_assert" file="test_assert.py" line="21" name="test_add_2" time="0.000"></testcase><testcase classname="test_assert" file="test_assert.py" line="26" name="test_add_3" time="0.000"></testcase><testcase classname="test_assert" file="test_assert.py" line="31" name="test_add_4" time="0.002"><failure message="assert 24 &gt;= 50
+ +  where 24 = add(2, 22)">def test_add_4():
+&gt;       assert add(2, 22) &gt;= 50
+E       assert 24 &gt;= 50
+E        +  where 24 = add(2, 22)
+
+test_assert.py:33: AssertionError</failure></testcase><testcase classname="test_assert" file="test_assert.py" line="36" name="test_in" time="0.001"></testcase><testcase classname="test_assert" file="test_assert.py" line="43" name="test_not_in" time="0.000"></testcase><testcase classname="test_assert" file="test_assert.py" line="50" name="test_ture_1" time="0.001"></testcase><testcase classname="test_assert" file="test_assert.py" line="55" name="test_ture_2" time="0.002"></testcase><testcase classname="test_assert" file="test_assert.py" line="60" name="test_ture_3" time="0.001"></testcase><testcase classname="test_assert" file="test_assert.py" line="65" name="test_ture_4" time="0.002"><failure message="assert not False is not True
+ +  where False = is_prime(6)">def test_ture_4():
+&gt;       assert not is_prime(6) is not True
+E       assert not False is not True
+E        +  where False = is_prime(6)
+
+test_assert.py:67: AssertionError</failure></testcase><testcase classname="test_assert" file="test_assert.py" line="70" name="test_false_5" time="0.001"></testcase></testsuite></testsuites>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Sun" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/AutoTest_project" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/Pytest-web" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/Pytest-web1" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/kyb_unittest_Project" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/kyb_unittest_Project/baseView" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/kyb_unittest_Project/businessView" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/kyb_unittest_Project/common" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/kyb_unittest_Project/test_case" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/kyb_unittest_Project/test_run" />
+      <excludeFolder url="file://$MODULE_DIR$/Sun_SONY/unittest_sample" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.8 (Sun)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/autotest/product/templates" />
+      </list>
+    </option>
+  </component>
+</module>

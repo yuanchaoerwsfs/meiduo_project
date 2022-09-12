@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b4f0307-4896-4319-aa28-0f18e680a94b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Sun" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PfXklbVoQKxV0Bzg4XkDJtNobm" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml&#10;Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kyb_unittest_Project/common" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Sun\kyb_unittest_Project\businessView" />
+      <recent name="D:\Sun" />
+      <recent name="D:\Sun\appium-android\PageObject" />
+      <recent name="D:\Sun\appium-android\kyb" />
+      <recent name="D:\Sun\appium-android\cashway" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sun\kyb_unittest_Project\common" />
+      <recent name="D:\Sun\appium_android\kyb_unittest_Project\common" />
+      <recent name="D:\Sun\appium_android\kyb_unittest_Project\baseView" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.loginView">
+    <configuration name="baseView" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kyb_unittest_Project/baseView" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kyb_unittest_Project/baseView/baseView.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="common_fun" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kyb_unittest_Project/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kyb_unittest_Project/common/common_fun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="common_fun" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\python3.7\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_android/PageObject" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_android/PageObject/common_fun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="desired_caps" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kyb_unittest_Project/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kyb_unittest_Project/common/desired_caps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="desired_caps" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_android/kyb_unittest_Project/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_android/kyb_unittest_Project/common/desired_caps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loginView" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kyb_unittest_Project/businessView" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kyb_unittest_Project/businessView/loginView.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_android/kyb_unittest_Project/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_android/kyb_unittest_Project/common/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.desired_caps" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.baseView" />
+      <item itemvalue="Python.common_fun" />
+      <item itemvalue="Python.loginView" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.loginView" />
+        <item itemvalue="Python.desired_caps" />
+        <item itemvalue="Python.common_fun" />
+        <item itemvalue="Python.baseView" />
+        <item itemvalue="Python.desired_caps" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b4f0307-4896-4319-aa28-0f18e680a94b" name="Default Changelist" comment="" />
+      <created>1566266269546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566266269546</updated>
+      <workItem from="1566266276530" duration="1316000" />
+      <workItem from="1566269366842" duration="120000" />
+      <workItem from="1566269521205" duration="8000" />
+      <workItem from="1566269562880" duration="40000" />
+      <workItem from="1566271653317" duration="81000" />
+      <workItem from="1566271776733" duration="349000" />
+      <workItem from="1566272471487" duration="618000" />
+      <workItem from="1566273443406" duration="206000" />
+      <workItem from="1566273679025" duration="620000" />
+      <workItem from="1566274896711" duration="42000" />
+      <workItem from="1566275272057" duration="119000" />
+      <workItem from="1566275454814" duration="118000" />
+      <workItem from="1566275625579" duration="435000" />
+      <workItem from="1566276181982" duration="12000" />
+      <workItem from="1566276253807" duration="451000" />
+      <workItem from="1566276750950" duration="1305000" />
+      <workItem from="1566278538862" duration="275000" />
+      <workItem from="1566279419689" duration="2383000" />
+      <workItem from="1566282415453" duration="5988000" />
+      <workItem from="1566348379556" duration="5704000" />
+      <workItem from="1566435350968" duration="6289000" />
+      <workItem from="1566453082509" duration="101000" />
+      <workItem from="1566453561118" duration="5346000" />
+      <workItem from="1566459627315" duration="200000" />
+      <workItem from="1566528342881" duration="256000" />
+      <workItem from="1566532362293" duration="7519000" />
+      <workItem from="1566545088811" duration="117000" />
+      <workItem from="1566545328664" duration="1444000" />
+      <workItem from="1566780794384" duration="9528000" />
+      <workItem from="1566882717813" duration="66000" />
+      <workItem from="1566882850758" duration="5435000" />
+      <workItem from="1566897797863" duration="562000" />
+      <workItem from="1566953182170" duration="5867000" />
+      <workItem from="1566972600349" duration="8119000" />
+      <workItem from="1567044695905" duration="13195000" />
+      <workItem from="1567126379837" duration="4019000" />
+      <workItem from="1567133869487" duration="11368000" />
+      <workItem from="1567152344899" duration="735000" />
+      <workItem from="1567212853360" duration="4304000" />
+      <workItem from="1567218515046" duration="1144000" />
+      <workItem from="1567219739466" duration="13459000" />
+      <workItem from="1567498014672" duration="1356000" />
+      <workItem from="1567647697398" duration="8291000" />
+      <workItem from="1567667599600" duration="990000" />
+      <workItem from="1567736559906" duration="16929000" />
+      <workItem from="1568075087469" duration="4024000" />
+      <workItem from="1568271097133" duration="241000" />
+      <workItem from="1568271464456" duration="4202000" />
+      <workItem from="1569198704268" duration="294000" />
+      <workItem from="1569199936497" duration="100000" />
+      <workItem from="1569200746544" duration="54000" />
+      <workItem from="1569201068052" duration="130000" />
+      <workItem from="1569208497181" duration="377000" />
+      <workItem from="1569209724712" duration="2000" />
+      <workItem from="1569210781499" duration="6000" />
+      <workItem from="1569210821749" duration="21000" />
+      <workItem from="1569294547428" duration="4000" />
+      <workItem from="1569294580593" duration="2327000" />
+      <workItem from="1569371605924" duration="710000" />
+      <workItem from="1569630124476" duration="599000" />
+      <workItem from="1569631127797" duration="1105000" />
+      <workItem from="1569808981505" duration="17448000" />
+      <workItem from="1569833698188" duration="2054000" />
+      <workItem from="1570081679295" duration="17575000" />
+      <workItem from="1570158291075" duration="1046000" />
+      <workItem from="1570159406363" duration="1373000" />
+      <workItem from="1570522166609" duration="1969000" />
+      <workItem from="1572934988550" duration="2200000" />
+      <workItem from="1573613145863" duration="1582000" />
+      <workItem from="1574836549172" duration="7963000" />
+      <workItem from="1576647946158" duration="1352000" />
+      <workItem from="1577235323199" duration="2331000" />
+      <workItem from="1577757981707" duration="42000" />
+      <workItem from="1577758075043" duration="996000" />
+      <workItem from="1577759560822" duration="3483000" />
+      <workItem from="1577931541193" duration="6538000" />
+      <workItem from="1577948645683" duration="318000" />
+      <workItem from="1577949004997" duration="1289000" />
+      <workItem from="1578033132150" duration="1260000" />
+      <workItem from="1578301110599" duration="1611000" />
+      <workItem from="1578462199037" duration="3364000" />
+      <workItem from="1578470975616" duration="1423000" />
+      <workItem from="1578969431291" duration="873000" />
+      <workItem from="1582851033386" duration="2636000" />
+      <workItem from="1583200064809" duration="2064000" />
+      <workItem from="1583219576639" duration="315000" />
+      <workItem from="1583219926540" duration="299000" />
+      <workItem from="1583220287162" duration="4702000" />
+      <workItem from="1583312442135" duration="2238000" />
+      <workItem from="1583745379297" duration="6000" />
+      <workItem from="1583891113402" duration="2177000" />
+      <workItem from="1583904487857" duration="2430000" />
+      <workItem from="1583910500818" duration="7241000" />
+      <workItem from="1583974491907" duration="10601000" />
+      <workItem from="1583990760079" duration="4956000" />
+      <workItem from="1584001318920" duration="2889000" />
+      <workItem from="1584004307313" duration="9000" />
+      <workItem from="1584060892230" duration="1368000" />
+      <workItem from="1584064852197" duration="14620000" />
+      <workItem from="1584426102309" duration="3751000" />
+      <workItem from="1584517947344" duration="3398000" />
+      <workItem from="1584594818503" duration="8208000" />
+      <workItem from="1585184990793" duration="16476000" />
+      <workItem from="1585891829849" duration="10124000" />
+      <workItem from="1586241008681" duration="6454000" />
+      <workItem from="1586248661479" duration="3158000" />
+      <workItem from="1586398654361" duration="13529000" />
+      <workItem from="1586738827706" duration="10340000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/unittest_sample/test_case/test_leap_year.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Alien/alien_invasion.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Alien/game_functions.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/python_test/py_month.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint type="python-line" />
+      </breakpoints-defaults>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="x" />
+        <watch expression="alien_speed_factor" />
+        <watch expression="fleet_direction" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_test$calc.coverage" NAME="calc Coverage Results" MODIFIED="1566283558715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_sample/test_case" />
+    <SUITE FILE_PATH="coverage/Sun$29my_yagmail.coverage" NAME="29my_yagmail Coverage Results" MODIFIED="1566783067081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test" />
+    <SUITE FILE_PATH="coverage/python_test$Unittests_in_23Web_baidu_py.coverage" NAME="Unittests in 23Web_baidu.py Coverage Results" MODIFIED="1566282872928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Sun$baseView.coverage" NAME="baseView Coverage Results" MODIFIED="1586415449909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyb_unittest_Project/baseView" />
+    <SUITE FILE_PATH="coverage/Sun$yield.coverage" NAME="yield Coverage Results" MODIFIED="1567137621005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test" />
+    <SUITE FILE_PATH="coverage/Sun$py_test.coverage" NAME="py_test Coverage Results" MODIFIED="1576655940307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test" />
+    <SUITE FILE_PATH="coverage/Sun$common_fun__1_.coverage" NAME="common_fun Coverage Results" MODIFIED="1585900916652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_android/PageObject" />
+    <SUITE FILE_PATH="coverage/python_test$video.coverage" NAME="video Coverage Results" MODIFIED="1566275745784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sun$post_json__1_.coverage" NAME="post_json (1) Coverage Results" MODIFIED="1577948739822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_testcase/auto_testcase" />
+    <SUITE FILE_PATH="coverage/Sun$27ddt.coverage" NAME="27ddt Coverage Results" MODIFIED="1566544997169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test" />
+    <SUITE FILE_PATH="coverage/Sun$appium_kyb.coverage" NAME="appium_kyb Coverage Results" MODIFIED="1583911442629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android" />
+    <SUITE FILE_PATH="coverage/python_test$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1566287613924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_sample" />
+    <SUITE FILE_PATH="coverage/Sun$Unittests_in_auto_testcase.coverage" NAME="Unittests in auto_testcase Coverage Results" MODIFIED="1577948765370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_testcase" />
+    <SUITE FILE_PATH="coverage/Sun$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1570522262485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Alien" />
+    <SUITE FILE_PATH="coverage/Sun$common_fun.coverage" NAME="common_fun Coverage Results" MODIFIED="1586417379200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyb_unittest_Project/common" />
+    <SUITE FILE_PATH="coverage/python_test$Unittests_in_25web_csv_data_py.coverage" NAME="Unittests in 25web_csv_data.py Coverage Results" MODIFIED="1566435744553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Sun$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1586246044863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_android/PageObject" />
+    <SUITE FILE_PATH="coverage/Sun$driver.coverage" NAME="driver Coverage Results" MODIFIED="1566954240960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoTest_project/driver" />
+    <SUITE FILE_PATH="coverage/python_test$Unittests_for_26parameterized_TestBaidu.coverage" NAME="Unittests for 26parameterized.TestBaidu Coverage Results" MODIFIED="1566444076094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Sun$do_excel.coverage" NAME="do_excel Coverage Results" MODIFIED="1577948694658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_testcase/auto_testcase/base" />
+    <SUITE FILE_PATH="coverage/Sun$alien_invasion__1_.coverage" NAME="alien_invasion (1) Coverage Results" MODIFIED="1570160092005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_aliens" />
+    <SUITE FILE_PATH="coverage/Sun$case_output.coverage" NAME="case_output Coverage Results" MODIFIED="1577946914826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_testcase/auto_testcase/cases" />
+    <SUITE FILE_PATH="coverage/Sun$test_parameterized.coverage" NAME="test_parameterized Coverage Results" MODIFIED="1566979060647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test/Page Object" />
+    <SUITE FILE_PATH="coverage/Sun$base.coverage" NAME="base Coverage Results" MODIFIED="1566797767273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test/Page Object" />
+    <SUITE FILE_PATH="coverage/Sun$base_01.coverage" NAME="base_01 Coverage Results" MODIFIED="1566798394194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test/Page Object" />
+    <SUITE FILE_PATH="coverage/Sun$get_toast.coverage" NAME="get_toast Coverage Results" MODIFIED="1584429339286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/kyb" />
+    <SUITE FILE_PATH="coverage/python_test$Unittests_in_test_calc_py.coverage" NAME="Unittests in test_calc.py Coverage Results" MODIFIED="1566283543596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_sample/test_case" />
+    <SUITE FILE_PATH="coverage/Sun$python_test3.coverage" NAME="python_test3 Coverage Results" MODIFIED="1574846021210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test" />
+    <SUITE FILE_PATH="coverage/Sun$1list.coverage" NAME="1list Coverage Results" MODIFIED="1566459638635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test" />
+    <SUITE FILE_PATH="coverage/Sun$post_json.coverage" NAME="post_json Coverage Results" MODIFIED="1577948709741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_testcase/auto_testcase/scripts" />
+    <SUITE FILE_PATH="coverage/Sun$app_kyb_register.coverage" NAME="app_kyb_register Coverage Results" MODIFIED="1584603437942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/kyb" />
+    <SUITE FILE_PATH="coverage/Sun$Unittests_in_26parameterized_py__1_.coverage" NAME="Unittests in 26parameterized.py (1) Coverage Results" MODIFIED="1566528574626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test" />
+    <SUITE FILE_PATH="coverage/Sun$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1566970603606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoTest_project/Website" />
+    <SUITE FILE_PATH="coverage/Sun$test_assert.coverage" NAME="test_assert Coverage Results" MODIFIED="1566974686337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test/Page Object" />
+    <SUITE FILE_PATH="coverage/Sun$python_test.coverage" NAME="python_test Coverage Results" MODIFIED="1573613713947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test" />
+    <SUITE FILE_PATH="coverage/Sun$yaml_load.coverage" NAME="yaml_load Coverage Results" MODIFIED="1585187179629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/yaml/yaml_test" />
+    <SUITE FILE_PATH="coverage/Sun$appium_cashway__1_.coverage" NAME="appium_cashway (1) Coverage Results" MODIFIED="1583917213494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/cashway" />
+    <SUITE FILE_PATH="coverage/Sun$by_Uiautomator.coverage" NAME="by_Uiautomator Coverage Results" MODIFIED="1584084718827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/kyb" />
+    <SUITE FILE_PATH="coverage/Sun$H5.coverage" NAME="H5 Coverage Results" MODIFIED="1584607381012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/kyb" />
+    <SUITE FILE_PATH="coverage/Sun$01baidu_Page.coverage" NAME="01baidu_Page Coverage Results" MODIFIED="1566798159811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test/Page Object" />
+    <SUITE FILE_PATH="coverage/Sun$python_test2.coverage" NAME="python_test2 Coverage Results" MODIFIED="1573614403351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test" />
+    <SUITE FILE_PATH="coverage/Sun$Unittests_in_auto_testcase__1_.coverage" NAME="Unittests in auto_testcase (1) Coverage Results" MODIFIED="1578471168931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_testcase/auto_testcase" />
+    <SUITE FILE_PATH="coverage/Sun$appium_kyb__1_.coverage" NAME="appium_kyb (1) Coverage Results" MODIFIED="1584002100831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/kyb" />
+    <SUITE FILE_PATH="coverage/Sun$Unittests_in_27ddt_py.coverage" NAME="Unittests in 27ddt.py Coverage Results" MODIFIED="1566545836736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test" />
+    <SUITE FILE_PATH="coverage/Sun$test_parametrize.coverage" NAME="test_parametrize Coverage Results" MODIFIED="1567233622117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyautoTest-master/test_dir" />
+    <SUITE FILE_PATH="coverage/python_test$Cookie.coverage" NAME="Cookie Coverage Results" MODIFIED="1566281837668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sun$appium_cashway.coverage" NAME="appium_cashway Coverage Results" MODIFIED="1583911964237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android" />
+    <SUITE FILE_PATH="coverage/Sun$capability_yaml.coverage" NAME="capability_yaml Coverage Results" MODIFIED="1585201878882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/kyb" />
+    <SUITE FILE_PATH="coverage/Sun$ship.coverage" NAME="ship Coverage Results" MODIFIED="1567652279243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test/alien_invasion" />
+    <SUITE FILE_PATH="coverage/Sun$py_month.coverage" NAME="py_month Coverage Results" MODIFIED="1578302695298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test" />
+    <SUITE FILE_PATH="coverage/python_test$Unittests_in_24fram_csv_py.coverage" NAME="Unittests in 24fram_csv.py Coverage Results" MODIFIED="1566366121557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Sun$desired_caps__1_.coverage" NAME="desired_caps (1) Coverage Results" MODIFIED="1586739200025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyb_unittest_Project/common" />
+    <SUITE FILE_PATH="coverage/Sun$py_test01.coverage" NAME="py_test01 Coverage Results" MODIFIED="1577237284012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test" />
+    <SUITE FILE_PATH="coverage/Sun$Setting.coverage" NAME="Setting Coverage Results" MODIFIED="1570107782715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Alien" />
+    <SUITE FILE_PATH="coverage/Sun$function.coverage" NAME="function Coverage Results" MODIFIED="1567047725726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoTest_project/Website/test_case/model" />
+    <SUITE FILE_PATH="coverage/Sun$Unittests_in_myunit_py.coverage" NAME="Unittests in myunit.py Coverage Results" MODIFIED="1566971706296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoTest_project/Website/test_case/model" />
+    <SUITE FILE_PATH="coverage/Sun$kyb_register.coverage" NAME="kyb_register Coverage Results" MODIFIED="1584076177529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/kyb" />
+    <SUITE FILE_PATH="coverage/python_test$Unittests_in_test_leap_year_py.coverage" NAME="Unittests in test_leap_year.py Coverage Results" MODIFIED="1566283929207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_sample/test_case" />
+    <SUITE FILE_PATH="coverage/Sun$18Reader_JSON.coverage" NAME="18Reader_JSON Coverage Results" MODIFIED="1566454459728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test" />
+    <SUITE FILE_PATH="coverage/Sun$title_lower_upper.coverage" NAME="title_lower_upper Coverage Results" MODIFIED="1569830734576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_test" />
+    <SUITE FILE_PATH="coverage/Sun$post_json__2_.coverage" NAME="post_json (2) Coverage Results" MODIFIED="1578471183544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_testcase/auto_testcase/scripts" />
+    <SUITE FILE_PATH="coverage/Sun$test_baidu.coverage" NAME="test_baidu Coverage Results" MODIFIED="1567233579032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyautoTest-master/test_dir" />
+    <SUITE FILE_PATH="coverage/Sun$loginView.coverage" NAME="loginView Coverage Results" MODIFIED="1586761058183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyb_unittest_Project/businessView" />
+    <SUITE FILE_PATH="coverage/Sun$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1567237476559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyautoTest-master" />
+    <SUITE FILE_PATH="coverage/Sun$logging_test.coverage" NAME="logging_test Coverage Results" MODIFIED="1585193553716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android/kyb" />
+    <SUITE FILE_PATH="coverage/python_test$leap_year.coverage" NAME="leap_year Coverage Results" MODIFIED="1566283554473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_sample/test_case" />
+    <SUITE FILE_PATH="coverage/Sun$appium_android.coverage" NAME="appium-android Coverage Results" MODIFIED="1583896687947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium-android" />
+    <SUITE FILE_PATH="coverage/Sun$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1567237466379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyautoTest-master" />
+    <SUITE FILE_PATH="coverage/Sun$fixture.coverage" NAME="fixture Coverage Results" MODIFIED="1567069174975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test" />
+    <SUITE FILE_PATH="coverage/Sun$desired_caps.coverage" NAME="desired_caps Coverage Results" MODIFIED="1586410600195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_android/kyb_unittest_Project/common" />
+    <SUITE FILE_PATH="coverage/Sun$loginView__1_.coverage" NAME="loginView Coverage Results" MODIFIED="1585902339472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_android/PageObject" />
+    <SUITE FILE_PATH="coverage/Sun$Alien.coverage" NAME="Alien Coverage Results" MODIFIED="1569830203826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Alien" />
+    <SUITE FILE_PATH="coverage/python_test$Unittests_in_26parameterized_py.coverage" NAME="Unittests in 26parameterized.py Coverage Results" MODIFIED="1566444824763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Sun$test.coverage" NAME="test Coverage Results" MODIFIED="1586249481162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_android/kyb_unittest_Project/common" />
+  </component>
+</project>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa663609-8434-4d40-bf99-f324cf1d5dad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Sun_SONY/Pytest-web" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="7cebf42f-e1b3-4689-8f61-6f0bca90772a" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/yuanchaoerwsfs/Pytest-web.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="266XI7SFrVCpTWrKxHAiZfAqFzt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sun_SONY/Pytest-web" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/Sun_SONY/Pytest-web" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Sun\Sun_SONY\front_end" />
+      <recent name="D:\Sun\Sun_SONY\front_end\CSS" />
+      <recent name="D:\Sun\Sun_SONY\20220621\static" />
+      <recent name="D:\Sun\Sun_SONY\20220604\html" />
+      <recent name="D:\Sun\Sun_SONY" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sun\Sun_SONY\front_end\everday_moble\js" />
+      <recent name="D:\Sun\Sun_SONY\front_end\everday_moble\images" />
+      <recent name="D:\Sun\Sun_SONY\front_end\everyday\images" />
+      <recent name="D:\Sun\Sun_SONY\20220604" />
+      <recent name="D:\Sun\Sun_SONY\kyb_unittest_Project\test_run" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run_tests">
+    <configuration name="02_static_web_server_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sun_SONY/20220604" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sun_SONY/20220604/02_static_web_server_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyWebFrameWork" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sun_SONY/20220621" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sun_SONY/20220621/MyWebFrameWork.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyWebServer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sun_SONY/20220621" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sun_SONY/20220621/MyWebServer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sun_SONY/pyautoTest-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sun_SONY/pyautoTest-master/run_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_20220827" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sun" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sun_SONY/selenium_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sun_SONY/selenium_test/selenium_20220827.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_tests" />
+        <item itemvalue="Python.selenium_20220827" />
+        <item itemvalue="Python.MyWebServer" />
+        <item itemvalue="Python.MyWebFrameWork" />
+        <item itemvalue="Python.02_static_web_server_file" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yuanc\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa663609-8434-4d40-bf99-f324cf1d5dad" name="Default Changelist" comment="" />
+      <created>1646744926211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646744926211</updated>
+      <workItem from="1646744952707" duration="42000" />
+      <workItem from="1646745088037" duration="728000" />
+      <workItem from="1646745907771" duration="272000" />
+      <workItem from="1646746418957" duration="996000" />
+      <workItem from="1646747442479" duration="4508000" />
+      <workItem from="1646752288577" duration="1234000" />
+      <workItem from="1646822458105" duration="598000" />
+      <workItem from="1646913001759" duration="9587000" />
+      <workItem from="1646924721543" duration="8000" />
+      <workItem from="1647054527086" duration="1226000" />
+      <workItem from="1647055789007" duration="1490000" />
+      <workItem from="1647058329105" duration="44000" />
+      <workItem from="1647058406221" duration="7907000" />
+      <workItem from="1647068868704" duration="134000" />
+      <workItem from="1647069065476" duration="103000" />
+      <workItem from="1647069201386" duration="625000" />
+      <workItem from="1647070242574" duration="11079000" />
+      <workItem from="1647089698038" duration="4175000" />
+      <workItem from="1647761082360" duration="1198000" />
+      <workItem from="1648262981915" duration="1251000" />
+      <workItem from="1648813319527" duration="59000" />
+      <workItem from="1649040233859" duration="4029000" />
+      <workItem from="1650284691946" duration="1086000" />
+      <workItem from="1650370321769" duration="2866000" />
+      <workItem from="1650375198623" duration="2958000" />
+      <workItem from="1650453224653" duration="12011000" />
+      <workItem from="1650544025813" duration="1144000" />
+      <workItem from="1651755982689" duration="750000" />
+      <workItem from="1651762904854" duration="600000" />
+      <workItem from="1652193608269" duration="306000" />
+      <workItem from="1654223683777" duration="14616000" />
+      <workItem from="1654522202451" duration="117000" />
+      <workItem from="1655293920983" duration="4597000" />
+      <workItem from="1655384845389" duration="601000" />
+      <workItem from="1655812480743" duration="3061000" />
+      <workItem from="1656506713218" duration="3142000" />
+      <workItem from="1656593541889" duration="176000" />
+      <workItem from="1657019742032" duration="1095000" />
+      <workItem from="1657625953380" duration="11777000" />
+      <workItem from="1658578616326" duration="17471000" />
+      <workItem from="1660646063356" duration="3442000" />
+      <workItem from="1660819528677" duration="822000" />
+      <workItem from="1661599940164" duration="1604000" />
+      <workItem from="1661611556546" duration="1602000" />
+      <workItem from="1661613293023" duration="271000" />
+      <workItem from="1661613647563" duration="1820000" />
+      <workItem from="1661776132231" duration="3056000" />
+      <workItem from="1662383706623" duration="655000" />
+      <workItem from="1662384399751" duration="4066000" />
+      <workItem from="1662820032520" duration="4171000" />
+      <workItem from="1662825350664" duration="424000" />
+      <workItem from="1662825944730" duration="108000" />
+      <workItem from="1662826137517" duration="4761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/Sun/Sun_SONY/Pytest-web" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="565" y="231" key="#Notifications" timestamp="1662825041972">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="565" y="231" key="#Notifications/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1662825041972" />
+    <state x="1921" y="240" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654346776201">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1921" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654346776201" />
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1662825317175">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1662825317175" />
+    <state x="2124" y="195" key="FileChooserDialogImpl" timestamp="1662987492899">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state x="539" y="137" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1662826024541" />
+    <state x="2124" y="195" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1662987492899" />
+    <state x="555" y="266" key="Github.ShareDialog" timestamp="1662822948774">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="555" y="266" key="Github.ShareDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1662822948774" />
+    <state width="1323" height="310" key="GridCell.Tab.0.bottom" timestamp="1662387832098">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1661613732523" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654349447061" />
+    <state width="1323" height="310" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1662387832098" />
+    <state width="1323" height="310" key="GridCell.Tab.0.center" timestamp="1662387832097">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1661613732523" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654349447061" />
+    <state width="1323" height="310" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1662387832097" />
+    <state width="1323" height="310" key="GridCell.Tab.0.left" timestamp="1662387832096">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1661613732523" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654349447061" />
+    <state width="1323" height="310" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1662387832096" />
+    <state width="1323" height="310" key="GridCell.Tab.0.right" timestamp="1662387832098">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1661613732523" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654349447061" />
+    <state width="1323" height="310" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1662387832098" />
+    <state width="1877" height="409" key="GridCell.Tab.1.bottom" timestamp="1654349447054">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="409" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654349447054" />
+    <state width="1877" height="409" key="GridCell.Tab.1.center" timestamp="1654349447053">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="409" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654349447053" />
+    <state width="1877" height="409" key="GridCell.Tab.1.left" timestamp="1654349447053">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="409" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654349447053" />
+    <state width="1877" height="409" key="GridCell.Tab.1.right" timestamp="1654349447053">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="409" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1654349447053" />
+    <state x="1731" y="38" key="SettingsEditor" timestamp="1662987669545">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state x="260" y="27" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1662826772597" />
+    <state x="1731" y="38" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1662987669545" />
+    <state x="260" y="27" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1662387830630" />
+    <state x="1753" y="145" key="Vcs.Push.Dialog.v2" timestamp="1662987518757">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1662826904688" />
+    <state x="1753" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1662987518757" />
+    <state x="444" y="103" key="VcsDiffUtil.ChangesDialog" timestamp="1662825293155">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="444" y="103" key="VcsDiffUtil.ChangesDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1662825293155" />
+    <state x="467" y="156" key="git4idea.merge.GitPullDialog" timestamp="1662826858354">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="467" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1662826858354" />
+    <state x="1774" y="365" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1662975280161">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1774" y="365" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.738/1366.0.1920.1050@1366.0.1920.1050" timestamp="1662975280161" />
+    <state x="339" y="22" width="672" height="676" key="search.everywhere.popup" timestamp="1658654674589">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="22" width="672" height="676" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1658654674589" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sun_SONY/Pytest-web1/test_dir/test_parametrize.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sun_SONY/Pytest-web1/test_dir/test_baidu.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sun_SONY/Pytest-web1/run_tests.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sun_SONY/Pytest-web1/run_tests.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Python38/Lib/BSTestRunner.py</url>
+          <line>664</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sun_SONY/20220603/struct.pack.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Sun$MyWebFrameWork.coverage" NAME="MyWebFrameWork Coverage Results" MODIFIED="1655813661529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/20220621" />
+    <SUITE FILE_PATH="coverage/Sun$run.coverage" NAME="run Coverage Results" MODIFIED="1650544305529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/kyb_unittest_Project/test_run" />
+    <SUITE FILE_PATH="coverage/Sun$01test_baidu.coverage" NAME="01test.baidu Coverage Results" MODIFIED="1647067718097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/selenium_test" />
+    <SUITE FILE_PATH="coverage/Sun$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1662387552661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/pyautoTest-master" />
+    <SUITE FILE_PATH="coverage/Sun$struct_pack.coverage" NAME="struct.pack Coverage Results" MODIFIED="1654349328309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/20220603" />
+    <SUITE FILE_PATH="coverage/Sun$mult_desired_sync.coverage" NAME="mult_desired_sync Coverage Results" MODIFIED="1650466618683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/kyb_unittest_Project/common" />
+    <SUITE FILE_PATH="coverage/Sun$py_month.coverage" NAME="py_month Coverage Results" MODIFIED="1651756134759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/python_test" />
+    <SUITE FILE_PATH="coverage/Sun$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1647080711889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/pyautoTest-master" />
+    <SUITE FILE_PATH="coverage/Sun$selenium_20220827.coverage" NAME="selenium_20220827 Coverage Results" MODIFIED="1661778411644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/selenium_test" />
+    <SUITE FILE_PATH="coverage/Sun$MyWebServer.coverage" NAME="MyWebServer Coverage Results" MODIFIED="1655813692772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/20220621" />
+    <SUITE FILE_PATH="coverage/Sun$BSTestRunner.coverage" NAME="BSTestRunner Coverage Results" MODIFIED="1650461324734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python38/Lib" />
+    <SUITE FILE_PATH="coverage/Sun$download_pack.coverage" NAME="download.pack Coverage Results" MODIFIED="1654346624828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/20220604" />
+    <SUITE FILE_PATH="coverage/Sun$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1650456207421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python38/Lib" />
+    <SUITE FILE_PATH="coverage/Sun$02_static_web_server_file.coverage" NAME="02_static_web_server_file Coverage Results" MODIFIED="1655300783115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/20220604" />
+    <SUITE FILE_PATH="coverage/Sun$parse.coverage" NAME="parse Coverage Results" MODIFIED="1654343154157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python38/Lib/urllib" />
+    <SUITE FILE_PATH="coverage/Sun$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1650469446763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/kyb_unittest_Project/test_case" />
+    <SUITE FILE_PATH="coverage/Sun$test.coverage" NAME="test Coverage Results" MODIFIED="1654344815873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/20220604" />
+    <SUITE FILE_PATH="coverage/Sun$test_baidu.coverage" NAME="test_baidu Coverage Results" MODIFIED="1647080380873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sun_SONY/pyautoTest-master/test_dir" />
+  </component>
+</project>

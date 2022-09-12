@@ -1,0 +1,8 @@
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4724
+[35m[Appium][39m   bootstrapPort: 4725
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4724
+
+D:\Sun\Sun_SONY\kyb_unittest_Project\common>
