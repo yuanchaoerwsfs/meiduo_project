@@ -1,3 +1,4 @@
+#生产环境启动文件
 """
 WSGI config for meiduo_mall project.
 
@@ -11,6 +12,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'meiduo_mall.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'meiduo_mall.settings.prod')  #生产环境配置文件读取
 
 application = get_wsgi_application()
