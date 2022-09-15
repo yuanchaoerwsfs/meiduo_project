@@ -11,3 +11,6 @@ install_as_MySQLdb()
 #
 # 安装PyMySQL扩展包
 # 因为MySQLdb只适用于Python2.x的版本，Python3.x的版本中使用PyMySQL替代MySQLdb
+
+
+
