@@ -72,3 +72,51 @@ INFO 2022-09-15 17:06:25,432 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\me
 INFO 2022-09-15 17:10:48,152 autoreload 677 Watching for file changes with StatReloader
 INFO 2022-09-15 17:10:54,881 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
 INFO 2022-09-15 17:10:57,212 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-15 21:12:08,524 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-15 21:34:34,538 autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-09-15 21:34:39,366 log 241 Not Found: /
+WARNING 2022-09-15 21:34:39,368 basehttp 187 "GET / HTTP/1.1" 404 2241
+WARNING 2022-09-15 21:34:53,074 log 241 Not Found: /register.html
+WARNING 2022-09-15 21:34:53,075 basehttp 187 "GET /register.html HTTP/1.1" 404 2298
+WARNING 2022-09-15 21:35:06,724 log 241 Not Found: /register.html
+WARNING 2022-09-15 21:35:06,726 basehttp 187 "GET /register.html HTTP/1.1" 404 2298
+INFO 2022-09-15 21:35:45,105 basehttp 187 "GET /register HTTP/1.1" 301 0
+ERROR 2022-09-15 21:35:45,248 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python38\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python38\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Sun\Sun_SONY\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 15, in get
+    return render(request, 'register.html')
+  File "C:\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2022-09-15 21:35:45,250 basehttp 187 "GET /register/ HTTP/1.1" 500 89681
+INFO 2022-09-15 21:39:45,942 autoreload 266 D:\Sun\Sun_SONY\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-15 21:39:49,957 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-15 21:39:52,613 autoreload 266 D:\Sun\Sun_SONY\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-15 21:39:56,327 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-15 21:40:14,344 autoreload 266 D:\Sun\Sun_SONY\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-15 21:40:18,033 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-15 21:49:21,122 autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-09-15 21:49:31,661 log 241 Not Found: /
+WARNING 2022-09-15 21:49:31,664 basehttp 187 "GET / HTTP/1.1" 404 2241
+INFO 2022-09-15 21:50:08,169 basehttp 187 "GET /register/ HTTP/1.1" 200 2984
+INFO 2022-09-15 21:50:08,274 basehttp 187 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-09-15 21:50:08,660 basehttp 187 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2022-09-15 21:50:08,680 basehttp 187 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-09-15 21:50:08,769 basehttp 187 "GET /static/css/main.css HTTP/1.1" 200 41733
+INFO 2022-09-15 21:50:08,886 basehttp 187 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-09-15 21:50:08,896 basehttp 187 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-09-15 21:50:08,911 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-09-15 21:50:41,712 autoreload 266 D:\Sun\Sun_SONY\meiduo_project\meiduo_mall\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2022-09-15 21:50:44,987 autoreload 677 Watching for file changes with StatReloader
