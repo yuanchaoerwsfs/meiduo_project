@@ -139,3 +139,7 @@ INFO 2022-09-16 10:15:39,058 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\me
 INFO 2022-09-16 10:15:42,030 autoreload 677 Watching for file changes with StatReloader
 INFO 2022-09-16 10:15:44,512 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
 INFO 2022-09-16 10:15:47,747 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 15:08:48,630 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\apps\users\models.py changed, reloading.
+INFO 2022-09-16 15:08:50,786 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 15:09:05,177 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\apps\users\models.py changed, reloading.
+INFO 2022-09-16 15:09:07,557 autoreload 677 Watching for file changes with StatReloader
