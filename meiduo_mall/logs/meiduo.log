@@ -120,3 +120,22 @@ INFO 2022-09-15 21:50:08,896 basehttp 187 "GET /static/images/icons02.png HTTP/1
 INFO 2022-09-15 21:50:08,911 basehttp 187 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
 INFO 2022-09-15 21:50:41,712 autoreload 266 D:\Sun\Sun_SONY\meiduo_project\meiduo_mall\meiduo_mall\apps\users\urls.py changed, reloading.
 INFO 2022-09-15 21:50:44,987 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:12:31,188 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:14:32,356 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:14:34,722 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:14:49,253 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:14:52,500 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:14:55,625 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:14:57,891 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:15:10,881 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:15:14,200 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:15:18,925 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:15:21,648 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:15:26,846 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:15:28,965 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:15:32,647 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:15:35,715 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:15:39,058 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:15:42,030 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-16 10:15:44,512 autoreload 266 D:\Sun\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2022-09-16 10:15:47,747 autoreload 677 Watching for file changes with StatReloader
