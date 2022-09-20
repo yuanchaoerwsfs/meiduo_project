@@ -51,8 +51,10 @@ class RegisterView(View):
             user=User.objects.create_user(username=username, password=password, mobile=mobile)
         except DatabaseError:
             return render(request, 'register.html', {'register_errmsg': '注册失败'})
+
         #保持登录状态
         login(request,user)
+        pass
         # 响应结果
         # return http.HttpResponse('注册成功，重定向到首页')
         return redirect(reverse('contents:index'))
