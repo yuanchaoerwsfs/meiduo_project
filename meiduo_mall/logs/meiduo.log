@@ -675,3 +675,5 @@ INFO 2022-09-20 21:48:32,900 basehttp 187 "GET /register/ HTTP/1.1" 200 3660
 INFO 2022-09-20 21:48:34,530 basehttp 187 "GET / HTTP/1.1" 200 39137
 WARNING 2022-09-20 21:48:38,267 log 241 Not Found: /register.html
 WARNING 2022-09-20 21:48:38,268 basehttp 187 "GET /register.html HTTP/1.1" 404 2462
+INFO 2022-09-20 22:21:22,704 autoreload 266 D:\Sun\Sun_SONY\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-20 22:21:25,033 autoreload 677 Watching for file changes with StatReloader
