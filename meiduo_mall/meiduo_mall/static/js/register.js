@@ -71,6 +71,27 @@ let vm = new Vue({
                     })
             }
         },
+        //校验账号重复
+        if(this.error_name=false){
+            let url='/usernames/'+this.username+'/count/'
+            axios.get(url, {responseType: JSON})
+                .then(response==>{
+                    if(response.data.count==1){
+                        //用户名存在
+                    this.error_name_message='用户名已存在';
+                    this.error_name=ture;
+                    }else{
+                        //用户名不存在
+                    this.error_name=ture;
+
+                    }
+                })
+                .catch(error==>{
+                    console.log(error.response);
+                })
+}
+
+
         // 校验密码
         check_password() {
             let re = /^[0-9A-Za-z]{8,20}$/;

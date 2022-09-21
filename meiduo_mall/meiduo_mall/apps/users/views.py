@@ -6,9 +6,17 @@ from django.db import DatabaseError
 from .models import User
 from django.urls import reverse
 from django.contrib.auth import login
+from meiduo_mall.utils.response_code import RETCODE
+from django.core import serializers
 
 
-# Create your views here.
+class UsernameCountView(View):
+    """判断用户名是否重复注册"""
+
+    def get(self, request, username):
+        count = User.objects.filter(username=username).count()
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'count': count})  # 返回json格式数据
+
 
 class RegisterView(View):
     """用户注册"""
@@ -48,12 +56,12 @@ class RegisterView(View):
             return http.HttpResponseForbidden('请勾选注册协议')
         # 保存注册数据
         try:
-            user=User.objects.create_user(username=username, password=password, mobile=mobile)
+            user = User.objects.create_user(username=username, password=password, mobile=mobile)
         except DatabaseError:
             return render(request, 'register.html', {'register_errmsg': '注册失败'})
 
-        #保持登录状态
-        login(request,user)
+        # 保持登录状态
+        login(request, user)
         pass
         # 响应结果
         # return http.HttpResponse('注册成功，重定向到首页')
