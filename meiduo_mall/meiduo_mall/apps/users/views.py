@@ -7,7 +7,6 @@ from .models import User
 from django.urls import reverse
 from django.contrib.auth import login
 from meiduo_mall.utils.response_code import RETCODE
-from django.core import serializers
 
 
 class UsernameCountView(View):
@@ -15,6 +14,13 @@ class UsernameCountView(View):
 
     def get(self, request, username):
         count = User.objects.filter(username=username).count()
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'count': count})  # 返回json格式数据
+
+
+class MobileCountView(View):
+    """判断手机号是否重复注册"""
+    def get(self, request, mobile):
+        count = User.objects.filter(mobile=mobile).count()
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'count': count})  # 返回json格式数据
 
 

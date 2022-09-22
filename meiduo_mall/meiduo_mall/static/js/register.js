@@ -70,26 +70,9 @@ let vm = new Vue({
                         console.log(error.response);
                     })
             }
+
         },
         //校验账号重复
-        if(this.error_name=false){
-            let url='/usernames/'+this.username+'/count/'
-            axios.get(url, {responseType: JSON})
-                .then(response==>{
-                    if(response.data.count==1){
-                        //用户名存在
-                    this.error_name_message='用户名已存在';
-                    this.error_name=ture;
-                    }else{
-                        //用户名不存在
-                    this.error_name=ture;
-
-                    }
-                })
-                .catch(error==>{
-                    console.log(error.response);
-                })
-}
 
 
         // 校验密码
@@ -117,6 +100,26 @@ let vm = new Vue({
             } else {
                 this.error_mobile_message = '您输入的手机号格式不正确';
                 this.error_mobile = true;
+            }
+                        //判断手机号码是否重复
+            if (this.error_mobile == false) { // 只有当用户输入的用户名满足条件时才回去判断
+                let url = '/mobiles/' + this.mobile + '/count/';
+                axios.get(url, {
+                    responseType: 'json'
+                })
+                    .then(response => {
+                        if (response.data.count == 1) {
+                            // 手机号码已存在
+                            this.error_mobile_message = '手机号码已存在';
+                            this.error_mobile = true;
+                        } else {
+                            // 手机号码不存在
+                            this.error_mobile = false;
+                        }
+                    })
+                    .catch(error => {
+                        console.log(error.response);
+                    })
             }
         },
         // 校验是否勾选协议
