@@ -72,7 +72,6 @@ let vm = new Vue({
             }
 
         },
-        //校验账号重复
 
 
         // 校验密码
@@ -122,6 +121,16 @@ let vm = new Vue({
                     })
             }
         },
+        //验证码校验
+        check_image_code(){
+            if(!this.image_code) {
+                this.error_image_code_message = '请填写图片验证码';
+                this.error_image_code = true;
+        } else {
+                this.error_image_code = false;
+                }
+        },
+
         // 校验是否勾选协议
         check_allow() {
             if (!this.allow) {

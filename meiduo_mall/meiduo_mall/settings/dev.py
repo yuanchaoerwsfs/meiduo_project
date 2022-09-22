@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users',  # 注册应用
     'contents'  #首页注册
+    'verifications',#增加短信验证应用模块
 ]
 
 MIDDLEWARE = [
@@ -106,14 +107,29 @@ DATABASES = {
 }
 # 配置redis数据库参数
 CACHES = {
-    "default": {
+    "default": {  #默认redis数据库0号
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.43.218:6379/1",
+        "LOCATION": "redis://192.168.123.89:6379/0",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "session": { #session
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.123.89:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "verify_code": { #验证码
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.123.89:6379/2",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
