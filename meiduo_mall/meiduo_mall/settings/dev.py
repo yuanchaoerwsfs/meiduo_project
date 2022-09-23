@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',  # 注册应用
-    'contents'  #首页注册
-    'verifications',#增加短信验证应用模块
+    'contents'  # 首页注册
+    'verifications',  # 增加短信验证应用模块
 ]
 
 MIDDLEWARE = [
@@ -107,29 +107,28 @@ DATABASES = {
 }
 # 配置redis数据库参数
 CACHES = {
-    "default": {  #默认redis数据库0号
+    "default": {  # 默认redis数据库0号
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.123.89:6379/0",
+        "LOCATION": "redis://192.168.18.9:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
-    "session": { #session
+    "session": {  # session
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.123.89:6379/1",
+        "LOCATION": "redis://192.168.18.9:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
-    "verify_code": { #验证码
+    "verify_code": {  # 验证码
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.123.89:6379/2",
+        "LOCATION": "redis://192.168.18.9:6379/2",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -215,5 +214,5 @@ LOGGING = {
     }
 }
 
-#指定自定义用户模型类：值的语法：==>‘子应用.用户模型类’
+# 指定自定义用户模型类：值的语法：==>‘子应用.用户模型类’
 AUTH_USER_MODEL = "users.User"

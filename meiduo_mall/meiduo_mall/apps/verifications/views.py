@@ -17,8 +17,8 @@ class ImageCodeView(View):
         text, image = captcha.generate_captcha()
 
         # 保存图片验证码
-        redis_conn = get_redis_connection('verify_code')
-        redis_conn.setex('img_%s' % uuid, constants.IMAGE_CODE_REDIS_EXPIRES, text)  # key===>uuid、redis延迟时间、value
+        redis_conn = get_redis_connection('verify_code')    #verify_code dev中配置的redis服务器库名称===>创建redis实例
+        redis_conn.setex('img_%s' % uuid, constants.IMAGE_CODE_REDIS_EXPIRES, text)  # key===>uuid；   constants.IMAGE_CODE_REDIS_EXPIRES==》redis延迟时间、   存放的value值
 
         # 响应图片验证码
         return http.HttpResponse(image, content_type='image/jpg')  # 参数为数据、数据类型

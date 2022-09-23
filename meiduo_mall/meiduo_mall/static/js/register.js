@@ -13,6 +13,7 @@ let vm = new Vue({
         allow: '',
         image_code_url: '',
         uuid: '',
+        image_code:'',
 
         // v-show
         error_name: false,
@@ -121,6 +122,9 @@ let vm = new Vue({
                     })
             }
         },
+
+
+
         //验证码校验
         check_image_code(){
             if(!this.image_code) {
