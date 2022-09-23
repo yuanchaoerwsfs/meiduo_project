@@ -21,10 +21,12 @@ let vm = new Vue({
         error_password2: false,
         error_mobile: false,
         error_allow: false,
+        error_image_code:false,
 
         // error_message
         error_name_message: '',
         error_mobile_message: '',
+        error_image_code_message:'',
     },
     mounted() { // 页面加载完会被调用的
         // 生成图形验证码
@@ -36,6 +38,7 @@ let vm = new Vue({
             this.uuid = generateUUID();
             this.image_code_url = '/image_codes/' + this.uuid + '/';
         },
+
         // 校验用户名
         check_username() {
             // 用户名是5-20个字符，[a-zA-Z0-9_-]
@@ -127,7 +130,7 @@ let vm = new Vue({
 
         //验证码校验
         check_image_code(){
-            if(!this.image_code) {
+            if(this.image_code.length!=4) {
                 this.error_image_code_message = '请填写图片验证码';
                 this.error_image_code = true;
         } else {
