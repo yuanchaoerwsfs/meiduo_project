@@ -33,6 +33,10 @@ let vm = new Vue({
         this.generate_image_code();
     },
     methods: { // 定义和实现事件方法
+        //获取短信验证码
+
+
+
         // 生成图形验证码的方法：封装的思想，代码复用
         generate_image_code() {
             this.uuid = generateUUID();
