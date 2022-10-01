@@ -2,10 +2,11 @@ from django.views import View
 from django import http
 from django_redis import get_redis_connection
 import random, json
+#from meiduo_mall.celery_tasks.sms.tasks import ccp_send_sms_code
 
 from verifications import constants
 from verifications.libs.captcha.captcha import captcha
-from meiduo_mall.meiduo_mall.utils.response_code import RETCODE
+from utils.response_code import RETCODE
 from verifications.libs.yuntongxun.example.SendMessage import CCP
 
 
@@ -17,8 +18,16 @@ class SMSCodeView(View):
         # 参数校验
         if not all([image_code_client, uuid]):
             return http.HttpResponseForbidden('缺少必传参数')
+        # 判断用户是否频繁发送验证码
+        # 连接redis数据库
+        redis_conn = get_redis_connection('verify_code')  # 连接redis数据库
+        # 取手机验证码标记
+        send_flag = redis_conn.get('send_flag_%s' % mobile)
+        if send_flag:
+            return http.JsonResponse({'code': RETCODE.THROTTLINGERR, "errmsg": "发送短信过于频繁"})
         # 提取图形验证码
         redis_conn = get_redis_connection('verify_code')  # 连接redis数据库
+        # image_code_server = redis_conn.get('img_%s' % uuid)
         image_code_server = redis_conn.get('img_%s' % uuid)
         # 删除图形验证码
         redis_conn.delete('img_%s' % uuid)
@@ -27,12 +36,21 @@ class SMSCodeView(View):
         if image_code_server.lower() != image_code_client.lower():  # 转小写，再比较
             return http.JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '图形验证码输入有误'})
         if image_code_server is None:
-            return http.JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '图形验证码已失效'})
+            return http.JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '短信验证码已失效'})
         # 生成短信验证码
         sms_code = '%06d' % random.randint(0, 999999)
-        # 保存短信验证码
-        redis_conn = get_redis_connection('verify_code')  # 连接redis数据库
-        redis_conn.setex('sms_%s' % mobile, constants.SMS_CODE_REDIS_EXPIRES, sms_code)
+        # # 保存短信验证码
+        # redis_conn = get_redis_connection('verify_code')  # 连接redis数据库
+        # redis_conn.setex('sms_%s' % mobile, constants.SMS_CODE_REDIS_EXPIRES, sms_code)
+        # # 保存短信验证码的标记
+        # redis_conn.setex('send_flag_%s' % mobile, constants.SEND_SMS_CODE_INTERVAL, 1)
+
+        # 优化redis数据库连接 打包，使用管道一次性执行要执行的redis命令
+        pl = redis_conn.pipeline()
+        pl.setex('sms_%s' % mobile, constants.SMS_CODE_REDIS_EXPIRES, sms_code)
+        # 保存短信验证码的标记
+        pl.setex('send_flag_%s' % mobile, constants.SEND_SMS_CODE_INTERVAL, 1)
+        pl.execute()
         # 发送短信验证码
         """
         发送短信验证码单例方法
@@ -42,7 +60,10 @@ class SMSCodeView(View):
 
         :return: 成功：0 失败：-1
         """
-        result = CCP().send_template_sms(constants.SEND_SMS_TEMPLATE_ID, mobile, sms_code)
+
+        result = CCP().send_template_sms(constants.SEND_SMS_TEMPLATE_ID, mobile, (sms_code, 5))
+        # 使用异步方式处理发送短信步骤，生产者消费者模式
+        #result = ccp_send_sms_code.delay(mobile, sms_code)
         # 响应结果
         result = json.loads(result)
         if result == 0:

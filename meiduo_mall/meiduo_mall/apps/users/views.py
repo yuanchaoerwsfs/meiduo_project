@@ -1,12 +1,15 @@
 from django.shortcuts import render, redirect
 from django.views import View
 from django import http
-import re
+from django_redis import get_redis_connection
 from django.db import DatabaseError
-from .models import User
 from django.urls import reverse
 from django.contrib.auth import login
-from meiduo_mall.utils.response_code import RETCODE
+
+import re
+
+from .models import User
+from utils.response_code import RETCODE
 
 
 class UsernameCountView(View):
@@ -19,6 +22,7 @@ class UsernameCountView(View):
 
 class MobileCountView(View):
     """判断手机号是否重复注册"""
+
     def get(self, request, mobile):
         count = User.objects.filter(mobile=mobile).count()
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'count': count})  # 返回json格式数据
@@ -47,6 +51,7 @@ class RegisterView(View):
         password2 = request.POST.get('password2')
         mobile = request.POST.get('mobile')
         allow = request.POST.get('allow')
+        sms_code_client = request.POST.get('sms_code')
         # 参数的逻辑校验
         if not all([username, password, password2, mobile, allow]):
             return http.HttpResponseForbidden('缺少必输字段')
@@ -60,6 +65,14 @@ class RegisterView(View):
             return http.HttpResponseForbidden('请输入正确的11位手机号码')
         if allow != 'on':
             return http.HttpResponseForbidden('请勾选注册协议')
+        # 短信验证码校验
+        redis_conn = get_redis_connection('verify_code')  # 连接redis数据库
+        sms_code_server = redis_conn.get('sms_%s' % mobile)
+        if sms_code_client != sms_code_server.decode():
+            return render(request, 'register.html', {'sms_code_errmsg': '输入短信验证码有误'})
+        if sms_code_client is None:
+            return render(request, 'register.html', {'sms_code_errmsg': '无效的短信验证码'})
+
         # 保存注册数据
         try:
             user = User.objects.create_user(username=username, password=password, mobile=mobile)
