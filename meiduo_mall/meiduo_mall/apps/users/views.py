@@ -5,11 +5,41 @@ from django_redis import get_redis_connection
 from django.db import DatabaseError
 from django.urls import reverse
 from django.contrib.auth import login
+from django.contrib.auth import authenticate
 
 import re
 
 from .models import User
 from utils.response_code import RETCODE
+
+
+class LoginView(View):
+    def get(self, request):
+        return render(request, 'login.html')
+
+    def post(self, request):
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        remembered = request.POST.get('remembered')
+        # 后端校验用户名和密码格式
+        if not re.match(r'^[A-Za-z0-9_-]{5,20}$', username):
+            return http.HttpResponseForbidden('请输入正确的账户或手机号码')
+        if not re.match(r'^[A-Za-z0-9]{8,20}$', password):
+            return http.HttpResponseForbidden('请输入8-20位的密码')
+        # 认证登录用户
+        user = authenticate(username=username, password=password)
+        if user is None:
+            return render(request, 'login.html', {"account_errmsg": "用户名或密码错误"})
+        # 实现状态保持
+        login(request, user)
+        # 设置状态保持的周期
+        if remembered != 'on':
+            # 没有记住用户，浏览器会话结束就过去
+            request.session.set_expiry(0)
+        else:
+            # 记录用户：none表示两周后过期
+            request.session.set_expiry(None)
+        return redirect(reverse('contents:index'))
 
 
 class UsernameCountView(View):
