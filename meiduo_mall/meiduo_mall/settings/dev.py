@@ -16,7 +16,9 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent  # 获取当前路径
+BASE_DIR1 = Path(__file__).resolve().parent.parent.parent  # 获取当前路径
 os.sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
+os.sys.path.insert(0, os.path.join(BASE_DIR1, 'meiduo_mall'))
 # os.path.abspath(__file__) 获取当前路径
 # os.path.dirname(os.path.abspath(__file__))  向上一级目录
 # Quick-start development settings - unsuitable for production
@@ -216,3 +218,4 @@ LOGGING = {
 
 # 指定自定义用户模型类：值的语法：==>‘子应用.用户模型类’
 AUTH_USER_MODEL = "users.User"
+AUTHENTICATION_BACKENDS = ["users.utils.UsernameMobileAuthBackend"]

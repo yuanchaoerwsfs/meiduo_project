@@ -9,8 +9,8 @@ from django.contrib.auth import authenticate
 
 import re
 
+from meiduo_mall.utils.response_code import RETCODE
 from .models import User
-from utils.response_code import RETCODE
 
 
 class LoginView(View):
