@@ -16,7 +16,9 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent  # 获取当前路径
+BASE_DIR1 = Path(__file__).resolve().parent.parent.parent  # 获取当前路径
 os.sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
+os.sys.path.insert(0, os.path.join(BASE_DIR1, 'meiduo_mall'))
 # os.path.abspath(__file__) 获取当前路径
 # os.path.dirname(os.path.abspath(__file__))  向上一级目录
 # Quick-start development settings - unsuitable for production
@@ -28,7 +30,7 @@ SECRET_KEY = 'django-insecure-o5l$l)bnpvxgzrda1hmeqhd#2w5yy9ncce28)gb9s$4f%6$^ma
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.meiduo.site']
 
 # Application definition
 
@@ -42,6 +44,7 @@ INSTALLED_APPS = [
     'users',  # 注册应用
     'contents',  # 首页注册
     'verifications',  # 增加短信验证应用模块
+    'oauth',#第三方登录
 ]
 
 MIDDLEWARE = [
@@ -216,3 +219,10 @@ LOGGING = {
 
 # 指定自定义用户模型类：值的语法：==>‘子应用.用户模型类’
 AUTH_USER_MODEL = "users.User"
+AUTHENTICATION_BACKENDS = ["users.utils.UsernameMobileAuthBackend"]
+LOGIN_URL = '/login/'
+
+
+QQ_CLIENT_ID = '101518219'
+QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
