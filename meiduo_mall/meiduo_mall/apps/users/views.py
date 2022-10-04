@@ -1,16 +1,48 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
 from django.views import View
 from django import http
 from django_redis import get_redis_connection
 from django.db import DatabaseError
 from django.urls import reverse
-from django.contrib.auth import login
+from django.contrib.auth import login, logout
 from django.contrib.auth import authenticate
 
 import re
 
 from meiduo_mall.utils.response_code import RETCODE
 from .models import User
+
+
+class UserInfoView(LoginRequiredMixin, View):
+    """
+    Django用户认证系统提供了方法request.user.is_authenticated()来判断用户是否登录。如果通过登录验证则返回True。反之，返回False。
+    """
+
+    def get(self, request):
+        # 方法一：
+        # if request.user.is_authenticated:
+        #     return render(request, 'user_center_info.html')
+        # else:
+        #     return render(reverse('users:login'))  # user:login===>app中模块名：命名空间
+        # 方法二:
+        # login_url = self.login_url or settings.LOGIN_URL   验证完成后要跳转的页面
+        # login_url='/login/'   或者在setting中配置LOGIN_URL='/login/' 效果一样
+        return render(request, 'user_center_info.html')
+
+
+class LogoutView(View):
+    def get(self, request):
+        # 清理session
+        logout(request)
+        # 退出之后重定向登录页
+        response = redirect(reverse('contents:index'))
+        # 退出登录时清楚cookie中的username
+        response.delete_cookie('username')
+
+        return response  # 返回请求后前端进行session和cockie清除处理===>赋空值
+
+    pass
 
 
 class LoginView(View):
@@ -39,7 +71,13 @@ class LoginView(View):
         else:
             # 记录用户：none表示两周后过期
             request.session.set_expiry(None)
-        return redirect(reverse('contents:index'))
+        next = request.GET.get('next')
+        if next:
+            response = redirect(next)
+        else:
+            response = redirect(reverse('contents:index'))
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+        return response
 
 
 class UsernameCountView(View):
@@ -114,4 +152,8 @@ class RegisterView(View):
         pass
         # 响应结果
         # return http.HttpResponse('注册成功，重定向到首页')
-        return redirect(reverse('contents:index'))
+        response = redirect(reverse('contents:index'))  # redirect(reverse('contents:index')) 返回的是response给前端渲染
+        # 登录时用户名写入到cookie，有效期15天
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+
+        return response

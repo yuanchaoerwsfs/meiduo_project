@@ -1,4 +1,4 @@
-from yuntongxun.ronglian_sms_sdk import SmsSDK
+from verifications.libs.yuntongxun.ronglian_sms_sdk import SmsSDK
 import json
 
 # accId = '容联云通讯分配的主账号ID'

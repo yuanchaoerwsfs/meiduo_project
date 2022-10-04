@@ -1,21 +1,20 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect,reverse
 from django.views import View
 from django.conf import settings
-
-import logging
-from QQLoginTool.QQtool import OAuthQQ
+from django.contrib.auth import login
 from django import http
+import logging
+
+from QQLoginTool.QQtool import OAuthQQ
+
+
 from utils.response_code import RETCODE
+from .utils import generate_eccess_token
+from .models import OAuthQQUser
 
 logger = logging.getLogger('django')#创建日志数据器
 
 
-
-
-
-# 第二步
-# 通过返回的通过Authorization Code获取Access Token
-# access_token = oauth.get_access_token(code)
 class QQAuthUserView(View):
     def get(self, request):
         # 第二步
@@ -37,6 +36,26 @@ class QQAuthUserView(View):
         except Exception as e:
             logger.error(e)
             return http.HttpResponseServerError('OAuth2.0认证失败')
+        try:
+            oauth_user = OAuthQQUser.objects.get(openid=openid)
+        except OAuthQQUser.DoesNotExist:
+            # 如果openid没绑定美多商城用户
+            access_token = generate_eccess_token(openid)
+            context = {'access_token_openid': access_token}
+            return render(request, 'oauth_callback.html', context)
+        else:
+            # 如果openid已绑定美多商城用户
+            # 实现状态保持
+            qq_user = oauth_user.user
+            login(request, qq_user)
+
+            # 重定向到主页
+            response = redirect(reverse('contents:index'))
+
+            # 登录时用户名写入到cookie，有效期15天
+            response.set_cookie('username', qq_user.username, max_age=3600 * 24 * 15)
+
+            return response
 
 
 # 第一步
