@@ -13,3 +13,9 @@ def generate_eccess_token(openid):
     data = {'openid': openid}
     token = serializer.dumps(data)
     return token.decode()
+
+
+def check_access_token(access_token):
+    serializer = Serializer(settings.SECRET_KEY, ACCESS_TOKEN_EXPIRES)
+    access_token = serializer.loads(access_token)
+    return access_token
