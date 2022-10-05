@@ -8,10 +8,61 @@ from django.urls import reverse
 from django.contrib.auth import login, logout
 from django.contrib.auth import authenticate
 
-import re
+import re, json, logging
 
+from celery_tasks.emails.tasks import send_verify_email,send_verify_email_1   #send_verify_email celery4.0以后不支持windows 修改为函数调用
 from meiduo_mall.utils.response_code import RETCODE
 from .models import User
+# from utils.views import LoginRequiredJSONMixin
+from meiduo_mall.utils.views import LoginRequiredJSONMixin
+from .utils import generate_verify_email_url, check_verify_email_token
+
+# 创建logger对象
+logger = logging.getLogger('django')
+
+
+class VerifyEmailView(View):
+    def get(self, request):
+        token = request.GET.get('token')
+        if not token:
+            return http.HttpResponseBadRequest('缺少token')
+        user = check_verify_email_token(token)
+
+        if not user:
+            return http.HttpResponseForbidden('无效的token')
+        try:
+            request.user.email_active = True
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseServerError('激活邮件失败')
+        return redirect(reverse('users:info'))
+
+
+class EmailView(LoginRequiredJSONMixin, View):
+    def put(self, request):
+        json_dict = json.loads(request.body.decode())
+        email = json_dict.get('email')
+
+        # 校验参数
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return http.HttpResponseForbidden('参数email有误')
+            # 赋值email字段
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '添加邮箱失败'})
+        # verify_url为地址，需新建函数实现，并且要进行加密
+        verify_url = generate_verify_email_url(request.user)
+        try:
+            send_verify_email_1(email, verify_url)
+        except Exception as e:
+            logger.error(e)
+            return http.JsonResponse({'code': RETCODE.EMAILERR, 'errmsg': '生成token值失败！,认证邮件未发送，请重试！'})
+        else:
+            return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '添加邮箱成功'})
 
 
 class UserInfoView(LoginRequiredMixin, View):
@@ -28,7 +79,13 @@ class UserInfoView(LoginRequiredMixin, View):
         # 方法二:
         # login_url = self.login_url or settings.LOGIN_URL   验证完成后要跳转的页面
         # login_url='/login/'   或者在setting中配置LOGIN_URL='/login/' 效果一样
-        return render(request, 'user_center_info.html')
+        contents = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active,
+        }
+        return render(request, 'user_center_info.html', contents)
 
 
 class LogoutView(View):

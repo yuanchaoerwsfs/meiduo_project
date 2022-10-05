@@ -5273,7 +5273,7 @@ function isUnknownElement (tag) {
   }
 }
 
-var isTextInputType = makeMap('text,number,password,search,email,tel,url');
+var isTextInputType = makeMap('text,number,password,search,emails,tel,url');
 
 /*  */
 

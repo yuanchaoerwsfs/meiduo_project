@@ -222,7 +222,20 @@ AUTH_USER_MODEL = "users.User"
 AUTHENTICATION_BACKENDS = ["users.utils.UsernameMobileAuthBackend"]
 LOGIN_URL = '/login/'
 
+#邮箱认证连接配置
+EMAIL_VERIFY_URL = 'http://127.0.0.1:8000/emails/verification/'
+# EMAIL_VERIFY_URL = 'http://www.127.0.0.1:8000/emails/verification/'
 
+#QQ登录授权参数
 QQ_CLIENT_ID = '101518219'
 QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
 QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
+
+
+#邮件配置参数
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # 指定邮件后端
+EMAIL_HOST = 'smtp.126.com' # 发邮件主机
+EMAIL_PORT = 25 # 发邮件端口
+EMAIL_HOST_USER = 'yuanchaoer@126.com' # 授权的邮箱
+EMAIL_HOST_PASSWORD = 'OPVXUINYHTXNAXDE' # 邮箱授权时获得的密码，非注册登录密码
+EMAIL_FROM = '美多商城<yuanchaoer@126.com>' # 发件人抬头

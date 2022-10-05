@@ -12,7 +12,7 @@ from verifications.libs.yuntongxun.example.SendMessage import CCP
 
 class SMSCodeView(View):
     def get(self, request, mobile):
-        # 接收参数
+        # 接收参数R
         uuid = request.GET.get('uuid')
         image_code_client = request.GET.get('image_code')
         # 参数校验
