@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^info/$', views.UserInfoView.as_view(), name='info'),
     url(r'^emails/$', views.EmailView.as_view(), name='email'),
     url(r'^emails/verification/$', views.VerifyEmailView.as_view()),
+    url(r'^addresses/$', views.VerifyEmailView.as_view(),name='address'),
 ]

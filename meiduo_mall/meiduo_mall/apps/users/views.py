@@ -20,8 +20,16 @@ from .utils import generate_verify_email_url, check_verify_email_token
 # 创建logger对象
 logger = logging.getLogger('django')
 
+class AddressView(View):
+    """用户地址"""
+
+
+    pass
+
+
 
 class VerifyEmailView(View):
+    """验证邮箱激活连接"""
     def get(self, request):
         token = request.GET.get('token')
         if not token:
@@ -40,6 +48,7 @@ class VerifyEmailView(View):
 
 
 class EmailView(LoginRequiredJSONMixin, View):
+    """邮箱保存，校验邮件发送"""
     def put(self, request):
         json_dict = json.loads(request.body.decode())
         email = json_dict.get('email')
@@ -68,6 +77,7 @@ class EmailView(LoginRequiredJSONMixin, View):
 class UserInfoView(LoginRequiredMixin, View):
     """
     Django用户认证系统提供了方法request.user.is_authenticated()来判断用户是否登录。如果通过登录验证则返回True。反之，返回False。
+    用户是否在线验证通过LoginRequiredMixin类实现
     """
 
     def get(self, request):
@@ -89,6 +99,7 @@ class UserInfoView(LoginRequiredMixin, View):
 
 
 class LogoutView(View):
+    """退出登陆"""
     def get(self, request):
         # 清理session
         logout(request)
@@ -103,6 +114,7 @@ class LogoutView(View):
 
 
 class LoginView(View):
+    """登录验证"""
     def get(self, request):
         return render(request, 'login.html')
 
@@ -154,7 +166,7 @@ class MobileCountView(View):
 
 
 class RegisterView(View):
-    """用户注册"""
+    """用户注册，提交表单"""
 
     def get(self, request):
         """

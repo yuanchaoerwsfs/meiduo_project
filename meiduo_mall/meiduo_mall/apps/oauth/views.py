@@ -17,6 +17,7 @@ logger = logging.getLogger('django')  # 创建日志数据器
 
 
 class QQAuthUserView(View):
+    """腾讯扫描QQ登录授权数据获取校验"""
     def get(self, request):
         # 第二步
         # 通过返回的通过Authorization Code获取Access Token
