@@ -10,8 +10,10 @@ from django.contrib.auth import authenticate
 
 import re, json, logging
 
-from celery_tasks.emails.tasks import send_verify_email,send_verify_email_1   #send_verify_email celery4.0以后不支持windows 修改为函数调用
+from celery_tasks.emails.tasks import send_verify_email, \
+    send_verify_email_1  # send_verify_email celery4.0以后不支持windows 修改为函数调用
 from meiduo_mall.utils.response_code import RETCODE
+
 from .models import User
 # from utils.views import LoginRequiredJSONMixin
 from meiduo_mall.utils.views import LoginRequiredJSONMixin
@@ -20,16 +22,17 @@ from .utils import generate_verify_email_url, check_verify_email_token
 # 创建logger对象
 logger = logging.getLogger('django')
 
-class AddressView(View):
+
+class AddressView(LoginRequiredJSONMixin, View):
     """用户地址"""
 
-
-    pass
-
+    def get(self, request):
+        return render(request, 'user_center_site.html')
 
 
 class VerifyEmailView(View):
     """验证邮箱激活连接"""
+
     def get(self, request):
         token = request.GET.get('token')
         if not token:
@@ -49,6 +52,7 @@ class VerifyEmailView(View):
 
 class EmailView(LoginRequiredJSONMixin, View):
     """邮箱保存，校验邮件发送"""
+
     def put(self, request):
         json_dict = json.loads(request.body.decode())
         email = json_dict.get('email')
@@ -100,6 +104,7 @@ class UserInfoView(LoginRequiredMixin, View):
 
 class LogoutView(View):
     """退出登陆"""
+
     def get(self, request):
         # 清理session
         logout(request)
@@ -115,6 +120,7 @@ class LogoutView(View):
 
 class LoginView(View):
     """登录验证"""
+
     def get(self, request):
         return render(request, 'login.html')
 

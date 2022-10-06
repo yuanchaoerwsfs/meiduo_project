@@ -6,7 +6,7 @@ from django.db import models
 from utils.models import BaseModel
 
 
-# Create your models here.s
+# Create your models here.sR
 
 
 class OAuthQQUser(BaseModel):

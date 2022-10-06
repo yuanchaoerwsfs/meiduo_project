@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'contents',  # 首页注册
     'verifications',  # 增加短信验证应用模块
     'oauth',#第三方登录
+    'areas',#省市区
 ]
 
 MIDDLEWARE = [
