@@ -9,9 +9,10 @@ class Area(models.Model):
                                verbose_name='上级行政区划')
 
     class Meta:
-        db_table = 'tb_areas'
-        verbose_name = '省市区'
-        verbose_name_plural = '省市区'
+        db_table = 'tb_areas'  ## 指明数据库表名
+        verbose_name = '省市区'  ## 在admin站点中显示的名称
+        verbose_name_plural = '省市区'  # # 显示的复数名称
 
     def __str__(self):
+        """定义每个数据对象的显示信息"""
         return self.name

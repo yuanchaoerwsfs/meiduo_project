@@ -9,7 +9,6 @@ import logging
 from utils.response_code import RETCODE
 from .models import Area
 
-# Create your views here.
 logger = logging.getLogger('django')
 
 
