@@ -13,5 +13,7 @@ urlpatterns = [
     url(r'^addresses/$', views.AddressView.as_view(), name='address'),
     url(r'^addresses/create/$', views.CreateAddressView.as_view()),
     url(r'^addresses/(?P<address_id>\d+)/$', views.UpdateDestroyAddressView.as_view()),
+    url(r'^addresses/(?P<address_id>\d+)/default/$', views.DefaultAddressView.as_view()),
+    url(r'^addresses/(?P<address_id>\d+)/title/$', views.UpdateTitleAddressView.as_view()),
 
 ]
