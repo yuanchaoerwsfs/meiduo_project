@@ -8,11 +8,12 @@ import logging
 
 from utils.response_code import RETCODE
 from .models import Area
+from meiduo_mall.utils.views import LoginRequiredJSONMixin
 
 logger = logging.getLogger('django')
 
 
-class AreasView(View):
+class AreasView(LoginRequiredJSONMixin,View):
     """省市区数据"""
 
     def get(self, request):

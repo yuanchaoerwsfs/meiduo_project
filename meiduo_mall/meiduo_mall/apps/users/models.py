@@ -15,7 +15,7 @@ class User(AbstractUser):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.username #user = User.objects.get(mobile=account) 这种调用的时候返回的user=username   这里self.XX决定了返回的结果
+        return self.username  # user = User.objects.get(mobile=account) 这种调用的时候返回的user=username   这里self.XX决定了返回的结果
 
 
 class Address(BaseModel):
@@ -28,6 +28,7 @@ class Address(BaseModel):
     city = models.ForeignKey('areas.Area', on_delete=models.PROTECT, related_name='city_addresses', verbose_name='市')
     district = models.ForeignKey('areas.Area', on_delete=models.PROTECT, related_name='district_addresses',
                                  verbose_name='区')
+    # Address模型类中的外键指向areas/models里面的Area。指明外键时，可以使用应用名.模型类名来定义。
     place = models.CharField(max_length=50, verbose_name='地址')
     mobile = models.CharField(max_length=11, verbose_name='手机')
     tel = models.CharField(max_length=20, null=True, blank=True, default='', verbose_name='固定电话')
@@ -39,3 +40,4 @@ class Address(BaseModel):
         verbose_name = '用户地址'
         verbose_name_plural = verbose_name
         ordering = ['-update_time']
+        # ordering 表示在进行Address查询时，默认使用的排序方式。ordering = ['-update_time'] : 根据更新的时间倒叙。

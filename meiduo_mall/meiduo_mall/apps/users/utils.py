@@ -1,6 +1,6 @@
 from django.contrib.auth.backends import ModelBackend
 from django.conf import settings
-from itsdangerous import TimedSerializer as Serializer, BadData
+# from itsdangerous import TimedSerializer as Serializer, BadData
 from .constants import VERIFY_EMAIL_TOKEN_EXPIRES
 from .models import User
 import re

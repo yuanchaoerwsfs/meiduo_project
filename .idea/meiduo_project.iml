@@ -22,6 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall/celery_tasks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/meiduo_mall/meiduo_mall/apps/areas" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (venv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
