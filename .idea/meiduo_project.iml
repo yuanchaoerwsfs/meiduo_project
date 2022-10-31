@@ -20,7 +20,6 @@
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall/meiduo_mall/apps/verifications/libs/yuntongxun" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall/meiduo_mall" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall/celery_tasks" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/meiduo_mall/meiduo_mall/apps/areas" isTestSource="false" />
     </content>

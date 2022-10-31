@@ -42,10 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',  # 注册应用
-    'contents',  # 首页注册
+    'contents',  # 首页注册、广告
     'verifications',  # 增加短信验证应用模块
     'oauth',#第三方登录
     'areas',#省市区
+    'goods',#省s商品模块
 ]
 
 MIDDLEWARE = [
